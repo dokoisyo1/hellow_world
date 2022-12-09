@@ -1,0 +1,1009 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BA2B44B8294302F500E8C328 /* hellow_worldApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2B44B7294302F500E8C328 /* hellow_worldApp.swift */; };
+		BA2B44BA294302F500E8C328 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2B44B9294302F500E8C328 /* ContentView.swift */; };
+		BA2B44BC294302FE00E8C328 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA2B44BB294302FE00E8C328 /* Assets.xcassets */; };
+		BA2B44BF294302FE00E8C328 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA2B44BE294302FE00E8C328 /* Preview Assets.xcassets */; };
+		BA2B44C9294302FF00E8C328 /* hellow_worldTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2B44C8294302FF00E8C328 /* hellow_worldTests.swift */; };
+		BA2B44D3294302FF00E8C328 /* hellow_worldUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2B44D2294302FF00E8C328 /* hellow_worldUITests.swift */; };
+		BA2B44D5294302FF00E8C328 /* hellow_worldUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2B44D4294302FF00E8C328 /* hellow_worldUITestsLaunchTests.swift */; };
+		BA2B44DB294302FF00E8C328 /* hellow_world Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = BA2B44DA294302FF00E8C328 /* hellow_world Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		BA2B44E0294302FF00E8C328 /* hellow_worldApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2B44DF294302FF00E8C328 /* hellow_worldApp.swift */; };
+		BA2B44E2294302FF00E8C328 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2B44E1294302FF00E8C328 /* ContentView.swift */; };
+		BA2B44E42943030200E8C328 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA2B44E32943030200E8C328 /* Assets.xcassets */; };
+		BA2B44E72943030200E8C328 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA2B44E62943030200E8C328 /* Preview Assets.xcassets */; };
+		BA2B44F12943030200E8C328 /* hellow_world_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2B44F02943030200E8C328 /* hellow_world_Watch_AppTests.swift */; };
+		BA2B44FB2943030200E8C328 /* hellow_world_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2B44FA2943030200E8C328 /* hellow_world_Watch_AppUITests.swift */; };
+		BA2B44FD2943030200E8C328 /* hellow_world_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2B44FC2943030200E8C328 /* hellow_world_Watch_AppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BA2B44C5294302FF00E8C328 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA2B44AC294302F400E8C328 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA2B44B3294302F500E8C328;
+			remoteInfo = hellow_world;
+		};
+		BA2B44CF294302FF00E8C328 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA2B44AC294302F400E8C328 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA2B44B3294302F500E8C328;
+			remoteInfo = hellow_world;
+		};
+		BA2B44DC294302FF00E8C328 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA2B44AC294302F400E8C328 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA2B44D9294302FF00E8C328;
+			remoteInfo = "hellow_world Watch App";
+		};
+		BA2B44ED2943030200E8C328 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA2B44AC294302F400E8C328 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA2B44D9294302FF00E8C328;
+			remoteInfo = "hellow_world Watch App";
+		};
+		BA2B44F72943030200E8C328 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA2B44AC294302F400E8C328 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA2B44D9294302FF00E8C328;
+			remoteInfo = "hellow_world Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		BA2B45032943030200E8C328 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				BA2B44DB294302FF00E8C328 /* hellow_world Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		BA2B44B4294302F500E8C328 /* hellow_world.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hellow_world.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA2B44B7294302F500E8C328 /* hellow_worldApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hellow_worldApp.swift; sourceTree = "<group>"; };
+		BA2B44B9294302F500E8C328 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BA2B44BB294302FE00E8C328 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BA2B44BE294302FE00E8C328 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BA2B44C4294302FF00E8C328 /* hellow_worldTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hellow_worldTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA2B44C8294302FF00E8C328 /* hellow_worldTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hellow_worldTests.swift; sourceTree = "<group>"; };
+		BA2B44CE294302FF00E8C328 /* hellow_worldUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hellow_worldUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA2B44D2294302FF00E8C328 /* hellow_worldUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hellow_worldUITests.swift; sourceTree = "<group>"; };
+		BA2B44D4294302FF00E8C328 /* hellow_worldUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hellow_worldUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BA2B44DA294302FF00E8C328 /* hellow_world Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "hellow_world Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA2B44DF294302FF00E8C328 /* hellow_worldApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hellow_worldApp.swift; sourceTree = "<group>"; };
+		BA2B44E1294302FF00E8C328 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BA2B44E32943030200E8C328 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BA2B44E62943030200E8C328 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BA2B44EC2943030200E8C328 /* hellow_world Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "hellow_world Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA2B44F02943030200E8C328 /* hellow_world_Watch_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hellow_world_Watch_AppTests.swift; sourceTree = "<group>"; };
+		BA2B44F62943030200E8C328 /* hellow_world Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "hellow_world Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA2B44FA2943030200E8C328 /* hellow_world_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hellow_world_Watch_AppUITests.swift; sourceTree = "<group>"; };
+		BA2B44FC2943030200E8C328 /* hellow_world_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hellow_world_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BA2B44B1294302F500E8C328 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA2B44C1294302FF00E8C328 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA2B44CB294302FF00E8C328 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA2B44D7294302FF00E8C328 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA2B44E92943030200E8C328 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA2B44F32943030200E8C328 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BA2B44AB294302F400E8C328 = {
+			isa = PBXGroup;
+			children = (
+				BA2B44B6294302F500E8C328 /* hellow_world */,
+				BA2B44C7294302FF00E8C328 /* hellow_worldTests */,
+				BA2B44D1294302FF00E8C328 /* hellow_worldUITests */,
+				BA2B44DE294302FF00E8C328 /* hellow_world Watch App */,
+				BA2B44EF2943030200E8C328 /* hellow_world Watch AppTests */,
+				BA2B44F92943030200E8C328 /* hellow_world Watch AppUITests */,
+				BA2B44B5294302F500E8C328 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BA2B44B5294302F500E8C328 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BA2B44B4294302F500E8C328 /* hellow_world.app */,
+				BA2B44C4294302FF00E8C328 /* hellow_worldTests.xctest */,
+				BA2B44CE294302FF00E8C328 /* hellow_worldUITests.xctest */,
+				BA2B44DA294302FF00E8C328 /* hellow_world Watch App.app */,
+				BA2B44EC2943030200E8C328 /* hellow_world Watch AppTests.xctest */,
+				BA2B44F62943030200E8C328 /* hellow_world Watch AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BA2B44B6294302F500E8C328 /* hellow_world */ = {
+			isa = PBXGroup;
+			children = (
+				BA2B44B7294302F500E8C328 /* hellow_worldApp.swift */,
+				BA2B44B9294302F500E8C328 /* ContentView.swift */,
+				BA2B44BB294302FE00E8C328 /* Assets.xcassets */,
+				BA2B44BD294302FE00E8C328 /* Preview Content */,
+			);
+			path = hellow_world;
+			sourceTree = "<group>";
+		};
+		BA2B44BD294302FE00E8C328 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BA2B44BE294302FE00E8C328 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BA2B44C7294302FF00E8C328 /* hellow_worldTests */ = {
+			isa = PBXGroup;
+			children = (
+				BA2B44C8294302FF00E8C328 /* hellow_worldTests.swift */,
+			);
+			path = hellow_worldTests;
+			sourceTree = "<group>";
+		};
+		BA2B44D1294302FF00E8C328 /* hellow_worldUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BA2B44D2294302FF00E8C328 /* hellow_worldUITests.swift */,
+				BA2B44D4294302FF00E8C328 /* hellow_worldUITestsLaunchTests.swift */,
+			);
+			path = hellow_worldUITests;
+			sourceTree = "<group>";
+		};
+		BA2B44DE294302FF00E8C328 /* hellow_world Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				BA2B44DF294302FF00E8C328 /* hellow_worldApp.swift */,
+				BA2B44E1294302FF00E8C328 /* ContentView.swift */,
+				BA2B44E32943030200E8C328 /* Assets.xcassets */,
+				BA2B44E52943030200E8C328 /* Preview Content */,
+			);
+			path = "hellow_world Watch App";
+			sourceTree = "<group>";
+		};
+		BA2B44E52943030200E8C328 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BA2B44E62943030200E8C328 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BA2B44EF2943030200E8C328 /* hellow_world Watch AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				BA2B44F02943030200E8C328 /* hellow_world_Watch_AppTests.swift */,
+			);
+			path = "hellow_world Watch AppTests";
+			sourceTree = "<group>";
+		};
+		BA2B44F92943030200E8C328 /* hellow_world Watch AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BA2B44FA2943030200E8C328 /* hellow_world_Watch_AppUITests.swift */,
+				BA2B44FC2943030200E8C328 /* hellow_world_Watch_AppUITestsLaunchTests.swift */,
+			);
+			path = "hellow_world Watch AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BA2B44B3294302F500E8C328 /* hellow_world */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA2B45042943030200E8C328 /* Build configuration list for PBXNativeTarget "hellow_world" */;
+			buildPhases = (
+				BA2B44B0294302F500E8C328 /* Sources */,
+				BA2B44B1294302F500E8C328 /* Frameworks */,
+				BA2B44B2294302F500E8C328 /* Resources */,
+				BA2B45032943030200E8C328 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BA2B44DD294302FF00E8C328 /* PBXTargetDependency */,
+			);
+			name = hellow_world;
+			productName = hellow_world;
+			productReference = BA2B44B4294302F500E8C328 /* hellow_world.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BA2B44C3294302FF00E8C328 /* hellow_worldTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA2B45072943030200E8C328 /* Build configuration list for PBXNativeTarget "hellow_worldTests" */;
+			buildPhases = (
+				BA2B44C0294302FF00E8C328 /* Sources */,
+				BA2B44C1294302FF00E8C328 /* Frameworks */,
+				BA2B44C2294302FF00E8C328 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BA2B44C6294302FF00E8C328 /* PBXTargetDependency */,
+			);
+			name = hellow_worldTests;
+			productName = hellow_worldTests;
+			productReference = BA2B44C4294302FF00E8C328 /* hellow_worldTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BA2B44CD294302FF00E8C328 /* hellow_worldUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA2B450A2943030200E8C328 /* Build configuration list for PBXNativeTarget "hellow_worldUITests" */;
+			buildPhases = (
+				BA2B44CA294302FF00E8C328 /* Sources */,
+				BA2B44CB294302FF00E8C328 /* Frameworks */,
+				BA2B44CC294302FF00E8C328 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BA2B44D0294302FF00E8C328 /* PBXTargetDependency */,
+			);
+			name = hellow_worldUITests;
+			productName = hellow_worldUITests;
+			productReference = BA2B44CE294302FF00E8C328 /* hellow_worldUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		BA2B44D9294302FF00E8C328 /* hellow_world Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA2B45002943030200E8C328 /* Build configuration list for PBXNativeTarget "hellow_world Watch App" */;
+			buildPhases = (
+				BA2B44D6294302FF00E8C328 /* Sources */,
+				BA2B44D7294302FF00E8C328 /* Frameworks */,
+				BA2B44D8294302FF00E8C328 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "hellow_world Watch App";
+			productName = "hellow_world Watch App";
+			productReference = BA2B44DA294302FF00E8C328 /* hellow_world Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BA2B44EB2943030200E8C328 /* hellow_world Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA2B450D2943030200E8C328 /* Build configuration list for PBXNativeTarget "hellow_world Watch AppTests" */;
+			buildPhases = (
+				BA2B44E82943030200E8C328 /* Sources */,
+				BA2B44E92943030200E8C328 /* Frameworks */,
+				BA2B44EA2943030200E8C328 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BA2B44EE2943030200E8C328 /* PBXTargetDependency */,
+			);
+			name = "hellow_world Watch AppTests";
+			productName = "hellow_world Watch AppTests";
+			productReference = BA2B44EC2943030200E8C328 /* hellow_world Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BA2B44F52943030200E8C328 /* hellow_world Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA2B45102943030200E8C328 /* Build configuration list for PBXNativeTarget "hellow_world Watch AppUITests" */;
+			buildPhases = (
+				BA2B44F22943030200E8C328 /* Sources */,
+				BA2B44F32943030200E8C328 /* Frameworks */,
+				BA2B44F42943030200E8C328 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BA2B44F82943030200E8C328 /* PBXTargetDependency */,
+			);
+			name = "hellow_world Watch AppUITests";
+			productName = "hellow_world Watch AppUITests";
+			productReference = BA2B44F62943030200E8C328 /* hellow_world Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BA2B44AC294302F400E8C328 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					BA2B44B3294302F500E8C328 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					BA2B44C3294302FF00E8C328 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = BA2B44B3294302F500E8C328;
+					};
+					BA2B44CD294302FF00E8C328 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = BA2B44B3294302F500E8C328;
+					};
+					BA2B44D9294302FF00E8C328 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					BA2B44EB2943030200E8C328 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = BA2B44D9294302FF00E8C328;
+					};
+					BA2B44F52943030200E8C328 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = BA2B44D9294302FF00E8C328;
+					};
+				};
+			};
+			buildConfigurationList = BA2B44AF294302F400E8C328 /* Build configuration list for PBXProject "hellow_world" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BA2B44AB294302F400E8C328;
+			productRefGroup = BA2B44B5294302F500E8C328 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BA2B44B3294302F500E8C328 /* hellow_world */,
+				BA2B44C3294302FF00E8C328 /* hellow_worldTests */,
+				BA2B44CD294302FF00E8C328 /* hellow_worldUITests */,
+				BA2B44D9294302FF00E8C328 /* hellow_world Watch App */,
+				BA2B44EB2943030200E8C328 /* hellow_world Watch AppTests */,
+				BA2B44F52943030200E8C328 /* hellow_world Watch AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BA2B44B2294302F500E8C328 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA2B44BF294302FE00E8C328 /* Preview Assets.xcassets in Resources */,
+				BA2B44BC294302FE00E8C328 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA2B44C2294302FF00E8C328 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA2B44CC294302FF00E8C328 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA2B44D8294302FF00E8C328 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA2B44E72943030200E8C328 /* Preview Assets.xcassets in Resources */,
+				BA2B44E42943030200E8C328 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA2B44EA2943030200E8C328 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA2B44F42943030200E8C328 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BA2B44B0294302F500E8C328 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA2B44BA294302F500E8C328 /* ContentView.swift in Sources */,
+				BA2B44B8294302F500E8C328 /* hellow_worldApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA2B44C0294302FF00E8C328 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA2B44C9294302FF00E8C328 /* hellow_worldTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA2B44CA294302FF00E8C328 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA2B44D5294302FF00E8C328 /* hellow_worldUITestsLaunchTests.swift in Sources */,
+				BA2B44D3294302FF00E8C328 /* hellow_worldUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA2B44D6294302FF00E8C328 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA2B44E2294302FF00E8C328 /* ContentView.swift in Sources */,
+				BA2B44E0294302FF00E8C328 /* hellow_worldApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA2B44E82943030200E8C328 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA2B44F12943030200E8C328 /* hellow_world_Watch_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA2B44F22943030200E8C328 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA2B44FD2943030200E8C328 /* hellow_world_Watch_AppUITestsLaunchTests.swift in Sources */,
+				BA2B44FB2943030200E8C328 /* hellow_world_Watch_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BA2B44C6294302FF00E8C328 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BA2B44B3294302F500E8C328 /* hellow_world */;
+			targetProxy = BA2B44C5294302FF00E8C328 /* PBXContainerItemProxy */;
+		};
+		BA2B44D0294302FF00E8C328 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BA2B44B3294302F500E8C328 /* hellow_world */;
+			targetProxy = BA2B44CF294302FF00E8C328 /* PBXContainerItemProxy */;
+		};
+		BA2B44DD294302FF00E8C328 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BA2B44D9294302FF00E8C328 /* hellow_world Watch App */;
+			targetProxy = BA2B44DC294302FF00E8C328 /* PBXContainerItemProxy */;
+		};
+		BA2B44EE2943030200E8C328 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BA2B44D9294302FF00E8C328 /* hellow_world Watch App */;
+			targetProxy = BA2B44ED2943030200E8C328 /* PBXContainerItemProxy */;
+		};
+		BA2B44F82943030200E8C328 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BA2B44D9294302FF00E8C328 /* hellow_world Watch App */;
+			targetProxy = BA2B44F72943030200E8C328 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		BA2B44FE2943030200E8C328 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BA2B44FF2943030200E8C328 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		BA2B45012943030200E8C328 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"hellow_world Watch App/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = hellow_world;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "test.hellow-world";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "test.hellow-world.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Debug;
+		};
+		BA2B45022943030200E8C328 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"hellow_world Watch App/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = hellow_world;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "test.hellow-world";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "test.hellow-world.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Release;
+		};
+		BA2B45052943030200E8C328 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"hellow_world/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = hellow_world;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "test.hellow-world";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BA2B45062943030200E8C328 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"hellow_world/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = hellow_world;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "test.hellow-world";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BA2B45082943030200E8C328 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "test.hellow-worldTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hellow_world.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/hellow_world";
+			};
+			name = Debug;
+		};
+		BA2B45092943030200E8C328 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "test.hellow-worldTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hellow_world.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/hellow_world";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BA2B450B2943030200E8C328 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "test.hellow-worldUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = hellow_world;
+			};
+			name = Debug;
+		};
+		BA2B450C2943030200E8C328 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "test.hellow-worldUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = hellow_world;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BA2B450E2943030200E8C328 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "test.hellow-world-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hellow_world Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/hellow_world Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Debug;
+		};
+		BA2B450F2943030200E8C328 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "test.hellow-world-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hellow_world Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/hellow_world Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Release;
+		};
+		BA2B45112943030200E8C328 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "test.hellow-world-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "hellow_world Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Debug;
+		};
+		BA2B45122943030200E8C328 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "test.hellow-world-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "hellow_world Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BA2B44AF294302F400E8C328 /* Build configuration list for PBXProject "hellow_world" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA2B44FE2943030200E8C328 /* Debug */,
+				BA2B44FF2943030200E8C328 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA2B45002943030200E8C328 /* Build configuration list for PBXNativeTarget "hellow_world Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA2B45012943030200E8C328 /* Debug */,
+				BA2B45022943030200E8C328 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA2B45042943030200E8C328 /* Build configuration list for PBXNativeTarget "hellow_world" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA2B45052943030200E8C328 /* Debug */,
+				BA2B45062943030200E8C328 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA2B45072943030200E8C328 /* Build configuration list for PBXNativeTarget "hellow_worldTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA2B45082943030200E8C328 /* Debug */,
+				BA2B45092943030200E8C328 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA2B450A2943030200E8C328 /* Build configuration list for PBXNativeTarget "hellow_worldUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA2B450B2943030200E8C328 /* Debug */,
+				BA2B450C2943030200E8C328 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA2B450D2943030200E8C328 /* Build configuration list for PBXNativeTarget "hellow_world Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA2B450E2943030200E8C328 /* Debug */,
+				BA2B450F2943030200E8C328 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA2B45102943030200E8C328 /* Build configuration list for PBXNativeTarget "hellow_world Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA2B45112943030200E8C328 /* Debug */,
+				BA2B45122943030200E8C328 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BA2B44AC294302F400E8C328 /* Project object */;
+}
